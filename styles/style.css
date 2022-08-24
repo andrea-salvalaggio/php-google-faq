@@ -1,3 +1,4 @@
+/* Header */
 header{
     height: 80px;
     border-bottom: 0.5px solid grey;
@@ -7,11 +8,16 @@ ul{
     list-style: none;
 }
 
-li{
+ul li{
     padding: 0 20px;
     color: grey;
     font-size: 15px;
     margin-top: 5px;
+}
+
+ul li:nth-child(5){
+    color: #3f68cf;
+    border-bottom: 3px solid #3f68cf;
 }
 
 h4{
@@ -19,11 +25,6 @@ h4{
     padding-left: 5px;
     font-weight: 400;
     font-size: 19px;
-}
-
-ul li:nth-child(5){
-    color: #3f68cf;
-    border-bottom: 3px solid #3f68cf;
 }
 
 .container-logo{
