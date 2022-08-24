@@ -8,6 +8,9 @@
     <!-- Importing Bootstrap v5.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <!-- Importing CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+
     <title>PHP Google FAQ</title>
 </head>
 <body>
@@ -119,9 +122,31 @@
                              Le query di ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics
                              o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte
                              parole chiave che hanno determinato il clic su un annuncio.",
-            ],        
+            ],       
         ];
     ?>
+
+    <header class="d-flex align-items-center py-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <div class="d-flex align-items-start">
+                        <div class="container-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" alt="Google Logo">
+                        </div>
+                        <h4>Privacy e termini</h4>
+                    </div>
+                    <ul class="d-flex p-0 m-0">
+                        <li>Introduzione</li>
+                        <li>Norme sulla privacy</li>
+                        <li>Termini di servizio</li>
+                        <li>Tecnologie</li>
+                        <li>Domande frequenti</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="container">
         <div class="row">
