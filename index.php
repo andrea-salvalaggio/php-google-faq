@@ -125,7 +125,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-5">
                 <?php foreach ($dataBase as $data) { ?>
                     <h3 class="mt-5 mb-3">
                         <?php echo $data['question']?>
