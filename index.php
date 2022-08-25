@@ -13,7 +13,7 @@
 
     <title>PHP Google FAQ</title>
 </head>
-<body>
+<body
 
     <?php
         $dataBase = [
@@ -126,6 +126,7 @@
         ];
     ?>
 
+    <!-- Header -->
     <header class="d-flex align-items-center py-4">
         <div class="container-fluid">
             <div class="row">
@@ -148,19 +149,23 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 mb-5">
-                <?php foreach ($dataBase as $data) { ?>
-                    <h3 class="mt-5 mb-3">
-                        <?php echo $data['question']?>
-                    </h3>
-                    <p>
-                        <?php echo $data['answer']?>
-                    </p>
-                <?php } ?>
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <?php foreach ($dataBase as $data) { ?>
+                        <h3 class="mt-5 mb-3">
+                            <?php echo $data['question']?>
+                        </h3>
+                        <p>
+                            <?php echo $data['answer']?>
+                        </p>
+                    <?php } ?>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+
 </body>
 </html>
